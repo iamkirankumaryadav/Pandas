@@ -12,11 +12,11 @@ import pandas as pd
 - Pandas is an exploratory data analysis toolkit with rich set of `attributes` and `methods`
 - Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
 
-`Attributes`
+### `Attributes`
 
 -  `index`, `columns`, `size`, `shape`, `ndim`, `values`, `axes`   
 
-`Methods`
+### `Methods`
 
 - `Import` data: `read_csv()`, `read_excel()`, `read_json()`
 - `Export` data: `to_csv()`, `.to_excel()`
@@ -26,7 +26,7 @@ import pandas as pd
 - `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`
 - `Transform` data: `apply()`, `map()`, `reduce()`, `explode()`
 - `Group`, `Aggregate` and `Combine` data: `groupby()`, `join()`, `merge()`, `concat()`, 
-- `Reshape` data: `pivot_table()`, `stack()` and `unstack`
+- `Reshape` data: `pivot_table()`, `stack()` and `unstack()`
 - `Visualize` data: `.plot()`
 - `Mathematical` operations: `sum()`, `mean()`, `median()`, `max()`, `min()`, `value_counts()`, `describe()`
 - `Time Series` Analysis: `date_range()`, `to_datetime()`
@@ -34,5 +34,6 @@ import pandas as pd
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
 - Pandas is used in `economics`, `finance`, `statistics` and `analytics`
 
-`Data Types`  
+### `Data Types`  
+
 - `Series` ( `1D` array ), `DataFrames` ( `2D` array ) and `Panel` ( `3D` `major_axis` and `minor_axis` )  
