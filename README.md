@@ -42,6 +42,6 @@ Attribute | Meaning
 
 Data Types | Array
 :--- | :---
-`Series` | `1D` array  
-`DataFrame` | `2D` array 
+`Series` | `1D`  
+`DataFrame` | `2D`  
 `Panel` | `3D` `major_axis` and `minor_axis` 
