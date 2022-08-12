@@ -14,6 +14,7 @@ import pandas as pd
 
 ### `Attributes` 
 
+`Attribute` | 
 :--- |
 `df.index` | 
 `df.columns` |  
