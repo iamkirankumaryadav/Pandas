@@ -12,9 +12,15 @@ import pandas as pd
 - Pandas is an exploratory data analysis toolkit with rich set of `attributes` and `methods`
 - Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
 
-### `Attributes`
-
--  `index`, `columns`, `size`, `shape`, `ndim`, `values`, `axes`   
+`Attributes` | 
+:--- |
+`index` | 
+`columns` |  
+`size` | 
+`shape` | 
+`ndim` | 
+`values` | 
+`axes` |   
 
 ### `Methods`
 
