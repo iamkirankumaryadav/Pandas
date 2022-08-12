@@ -33,4 +33,6 @@ import pandas as pd
 - `Performance optimization` ( Changing data types, storage type )
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
 - Pandas is used in `economics`, `finance`, `statistics` and `analytics`
-- `Data Types` : `Series` ( `1D` array ) and `DataFrames` ( `2D` array ), `Panel` ( `3D` `major_axis` and `minor_axis` ) very rare. 
+
+`Data Types`  
+- `Series` ( `1D` array ), `DataFrames` ( `2D` array ) and `Panel` ( `3D` `major_axis` and `minor_axis` )  
