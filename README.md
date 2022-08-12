@@ -30,8 +30,7 @@ import pandas as pd
 - `Visualize` data: `.plot()`
 - `Mathematical` operations: `sum()`, `mean()`, `median()`, `max()`, `min()`, `value_counts()`, `describe()`
 - `Time Series` Analysis: `date_range()`, `to_datetime()`
-- Performance optimization ( Changing data types, storage type )
+- `Performance optimization` ( Changing data types, storage type )
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
-- Pandas is used in economics, finance, statistics and analytics.
-- Data Types: `Series` ( `1D` array ) and `DataFrames` ( `2D` array )
-- Panel: `3D` ( `major_axis` and `minor_axis` ) very rare. 
+- Pandas is used in `economics`, `finance`, `statistics` and `analytics`
+- `Data Types` : `Series` ( `1D` array ) and `DataFrames` ( `2D` array ), `Panel` ( `3D` `major_axis` and `minor_axis` ) very rare. 
