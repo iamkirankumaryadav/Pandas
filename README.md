@@ -14,15 +14,15 @@ import pandas as pd
 
 ### `Attributes` 
 
-`Attribute` | 
-:--- |
-`df.index` | 
-`df.columns` |  
-`df.size` | 
-`df.shape` | 
-`df.ndim` | 
-`df.values` | 
-`df.axes` |   
+Attribute | Meaning
+:--- | :---
+`df.index` | Index of DataFrame ( RangeIndex )
+`df.columns` | Columns in the DataFrame  
+`df.size` | Number of fields in the DataFrame
+`df.shape` | A tuple of number of rows and columns
+`df.ndim` | Number of dimensions in the DataFrame (1D, 2D, 3D...)
+`df.values` | All the values of the DataFrame
+`df.axes` | List containing index and columns
 
 ### `Methods`
 
