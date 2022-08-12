@@ -11,7 +11,13 @@ import pandas as pd
 - Financial term for a tabular data is `Panel`
 - Pandas is an exploratory data analysis toolkit with rich set of `attributes` and `methods`
 - Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
-- `Attributes` : `index`, `columns`, `size`, `shape`, `ndim`, `values`, `axes`   
+
+`Attributes`
+
+-  `index`, `columns`, `size`, `shape`, `ndim`, `values`, `axes`   
+
+`Methods`
+
 - `Import` data: `read_csv()`, `read_excel()`, `read_json()`
 - `Export` data: `to_csv()`, `.to_excel()`
 - `Preview` data: `head()`, `tail()`, `sample()`,`sort_values()`
