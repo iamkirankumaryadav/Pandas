@@ -16,7 +16,7 @@ import pandas as pd
 
 Attribute | Meaning
 :--- | :---
-`df.index` | Index of DataFrame ( RangeIndex )
+`df.index` | Index of DataFrame ( Default: RangeIndex )
 `df.columns` | Columns in the DataFrame  
 `df.size` | Number of fields in the DataFrame
 `df.shape` | A tuple of number of rows and columns
