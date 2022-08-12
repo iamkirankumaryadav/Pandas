@@ -3,10 +3,7 @@
 ```python
 import pandas as pd
 ```
-Toolkit to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `merge`, `pivot` and `clean` the data.
-
-### Excel for Python. 
-
+- `Toolkit` to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `merge`, `pivot` and `clean` the data.
 - `Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
 - `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 - Financial term for a tabular data is `Panel`
