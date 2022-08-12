@@ -12,7 +12,7 @@ import pandas as pd
 - Pandas is an exploratory data analysis toolkit with rich set of `attributes` and `methods`
 - Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
 
-`Attribute` | `Meaning`
+Attribute | Meaning
 :--- | :---
 `df.index` | Index of DataFrame ( Default: RangeIndex )
 `df.columns` | Columns in the DataFrame  
@@ -40,6 +40,8 @@ import pandas as pd
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
 - Pandas is used in `economics`, `finance`, `statistics` and `analytics`
 
-### `Data Types`  
-
-- `Series` ( `1D` array ), `DataFrames` ( `2D` array ) and `Panel` ( `3D` `major_axis` and `minor_axis` )  
+Data Types | Array
+:--- | :---
+`Series` | `1D` array  
+`DataFrame` | `2D` array 
+`Panel` | `3D` `major_axis` and `minor_axis` 
