@@ -3,9 +3,9 @@
 ```python
 import pandas as pd
 ```
-`Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
+### `Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
 
-`Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
+### `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 
 - `Toolkit` to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `merge`, `pivot` and `clean` the data.
 - Financial term for a tabular data is `Panel`
