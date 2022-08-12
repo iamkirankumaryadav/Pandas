@@ -3,9 +3,11 @@
 ```python
 import pandas as pd
 ```
+`Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
+
+`Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
+
 - `Toolkit` to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `merge`, `pivot` and `clean` the data.
-- `Column` | `Feature` | `Attribute` | `Series` | `Field` | `Dimension`        
-- `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 - Financial term for a tabular data is `Panel`
 - Pandas is an exploratory data analysis toolkit with rich set of `attributes` and `methods`
 - Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
