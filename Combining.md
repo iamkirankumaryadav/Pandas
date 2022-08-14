@@ -1,5 +1,3 @@
-# `Combining` DataFrames
-
 # `Join`, `Merge` and `Concat`
 
 - For `pandas.DataFrame` both `join` and `merge` operates on columns and rename common columns using parameter `suffix`
@@ -11,7 +9,7 @@
 - Combine `all` the columns from the two tables.
 - Common columns are renamed with the paramaters `lsuffix` and `rsuffix`
 
-![Join](../Python/Image/Join.png)
+![Join](Images/Joins.png)
 
 ```python
 DataFrame.join(self, 
