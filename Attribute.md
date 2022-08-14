@@ -8,7 +8,7 @@
   <tr><td><a href=#dtype><code>DataFrame.dtypes</code></a></td> <td>Data types for each column of DataFrame</td></tr>
   <tr><td><a href=#size><code>DataFrame.size</code></a></td> <td>Total number of elements in a DataFrame</td></tr>
   <tr><td><a href=#shape><code>DataFrame.shape</code></a></td> <td>Dimensions of DataFrame ( Number of rows, Number of columns )</td></tr>
-  <tr><td><a href=#ndim><code>DataFrame.ndim</code></a></td> <td>Dimensions of DataFrame</td></tr>
+  <tr><td><a href=#ndim><code>DataFrame.ndim</code></a></td> <td>No. of Dimensions ( 1D, 2D, 3D )</td></tr>
   <tr><td><a href=#empty><code>DataFrame.empty</code></a></td> <td>Check whether DataFrame is empty or not</td></tr>
   <tr><td><a href=#T><code>DataFrame.T</code></a></td> <td>Change the rows into columns and columns into rows</td></tr>  
   <tr><td><a href=#value><code>DataFrame.values</code></a></td> <td>Values of DataFrame in the form of NumPy array</td></tr>  
