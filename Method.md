@@ -1,7 +1,7 @@
 # `Method`
 
 <table>
-      <tr><th>Method</th><th>Description</th></tr>
+      <tr><th><h3>Method</h3></th><th><h3>Description</h3></th></tr>
       </table>
 
 ### `DataFrame.head(n)` : Displays top n rows from the DataFrame.
