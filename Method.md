@@ -157,7 +157,7 @@ df.groupby([df['Date'].str[:4], 'Product']).sum().reset_index().rename(columns={
 
 - Changing the structure of DataFrame to represent data in desired form.
 
-![Stack and Unstack](../Images/Reshaping.png)
+![Stack and Unstack](Images/Reshaping.png)
 
 ### `DataFrame.stack()` : Represents a taller DataFrame. 
 
