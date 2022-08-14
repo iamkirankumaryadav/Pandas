@@ -34,7 +34,7 @@ Method | Use
 `df.groupby()`, `df.join()`, `df.merge()`, `df.concat()` | Group by aggregate and combine data
 `df.pivot_table()`, `df.stack()`, `df.unstack()` | Reshape data 
 `df.plot()` | Visualize data
-`df.sum()`, `df.mean()`, `df.median()`, `df.max()`, `df.min()`, `df.value_counts()`, `df.describe()` | Mathematical operations
+`df.sum()`, `df.mean()`, `df.median()`, `df.max()`, `df.value_counts()`, `df.describe()` | Mathematical operations
 `df.date_range()`, `df.to_datetime()` | Time Series analysis
 
 - `Performance optimization` ( Changing data types, storage type )
