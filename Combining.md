@@ -1,4 +1,4 @@
-# `Join`, `Merge` and `Concat`
+# `Join`
 
 - For `pandas.DataFrame` both `join` and `merge` operates on columns and rename common columns using parameter `suffix`
 - `concat` can operate on columns or rows, depending on parameter `axis` and no renaming is performed.
@@ -20,6 +20,7 @@ DataFrame.join(self,
                sort=False)
 ```
 
+# `Merge` 
 
 ### `DataFrame.merge()` : `how = 'left' | 'right' | 'inner' | 'outer' | 'cross'`
 
@@ -60,6 +61,8 @@ pandas.merge(left,
              indicator=False, 
              validate=None)                
 ```
+
+# `Concat`
 
 ### `pandas.concat()` : `join = 'inner' | 'outer'`
 
