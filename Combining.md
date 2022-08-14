@@ -4,7 +4,7 @@
 - `concat` can operate on columns or rows, depending on parameter `axis` and no renaming is performed.
 - `concat` allow defining hierarchy structure by passing in parameters `keys` and `names`
 
-###  how = 'left' | 'right' | 'inner' | 'outer'`
+###  `how = 'left' | 'right' | 'inner' | 'outer'`
 
 - Combine `all` the columns from the two tables.
 - Common columns are renamed with the paramaters `lsuffix` and `rsuffix`
