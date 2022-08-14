@@ -9,8 +9,6 @@
 
 <h3 name=index><code>DataFrame.index</code></h3>
 
-### `DataFrame.index` : Row labels of DataFrame.
-
 ```python
 print(df.index)
 
