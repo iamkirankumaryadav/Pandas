@@ -1,6 +1,6 @@
 # `Attribute`
 
-<p><h4 href=#index>Index</h4></p>
+<p><a href=#index>Index</a></p>
 
 <h3 name=index>DataFrame.index</h3>
 
