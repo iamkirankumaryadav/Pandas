@@ -16,9 +16,8 @@ import pandas as pd
 
 Data Types | Array
 :--- | :---
-`Series` | `1D`  
-`DataFrame` | `2D`  
-`Panel` | `3D` `major_axis` and `minor_axis` 
+`pandas.Series()` | `1D`  
+`pandas.DataFrame()` | `2D`  
 
 Attribute | Meaning
 :--- | :---
