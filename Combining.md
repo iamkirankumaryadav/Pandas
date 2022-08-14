@@ -9,7 +9,7 @@
 - Combine `all` the columns from the two tables.
 - Common columns are renamed with the paramaters `lsuffix` and `rsuffix`
 
-![Join](Images/Joins.png)
+![Join](Images/df.joins.png)
 
 ```python
 DataFrame.join(self, 
@@ -64,10 +64,10 @@ pandas.merge(left,
 ### `pandas.concat()` : `join = 'inner' | 'outer'`
 
 ### `axis = 0` : `Horizontally` | `Row Wise`
-![Join](../Python/Image/ConcatAxis0.png)
+![Join](Images/df.concat(axis=0).png)
 
 ### `axis = 1` : `Vertically` | `Column Wise`
-![Join](../Python/Image/ConcatAxis1.png)
+![Join](Images/df.concat(axis=1).png)
 
 ```python
 pandas.concat(objs, 
