@@ -10,6 +10,9 @@ import pandas as pd
 - Pandas is an `exploratory data analysis toolkit` with rich set of [attributes](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Method.md)
 - `Toolkit` for `reading`, `writing`, [accessings](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Access%20Data.md), `filtering`, [grouping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Grouping.md), [combining](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Combining.md), [reshaping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Reshaping.md) and `cleaning` data.
 - Financial term for a tabular data is `Panel`, supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
+- `Performance optimization` ( Changing data types, storage type )
+- Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
+- Pandas is used in `economics`, `finance`, `statistics` and `analytics`
 
 Data Types | Array
 :--- | :---
@@ -42,7 +45,3 @@ Method | Use
 `df.plot()` | Visualize data
 `df.sum()`, `df.mean()`, `df.median()`, `df.max()`, `df.value_counts()`, `df.describe()` | Mathematical operations
 `df.date_range()`, `df.to_datetime()` | Time Series analysis
-
-- `Performance optimization` ( Changing data types, storage type )
-- Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
-- Pandas is used in `economics`, `finance`, `statistics` and `analytics`
