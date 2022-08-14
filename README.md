@@ -33,7 +33,7 @@ Attribute | Meaning
 Method | Use
 :--- | :---
 `pd.read_csv()`, `pd.read_excel()`, `pd.read_json()` | Import data
-`df.to_csv()`, `df.to_excel()` | Export data
+`df.to_csv()`, `df.to_excel()`, `to_parquet()` | Export data
 `df.head()`, `df.tail()`, `df.sample()`,`df.sort_values()` | Preview data
 `df.query()` | Filter data
 `df.iat[]`, `df.at[]`, `df.iloc[]`, `df.loc[]` | Indexing and Slicing
