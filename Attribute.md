@@ -7,7 +7,7 @@
   <tr><td><a href=#index><code>DataFrame.index</code></a></td> <td>Row labels of DataFrame</td></tr>
 </table>
 
-<h3 name=index>DataFrame.index</h3>
+<h3 name=index><code>DataFrame.index</code></h3>
 
 ### `DataFrame.index` : Row labels of DataFrame.
 
