@@ -21,20 +21,22 @@ Attribute | Meaning
 `df.values` | All the values of the DataFrame
 `df.axes` | List containing index and columns
 
-### `Methods`
+Method | Use
+:--- | :---
+`pd.read_csv()`, `pd.read_excel()`, `pd.read_json()` | Import data
+`df.to_csv()`, `df.to_excel()` | Export data
+`df.head()`, `df.tail()`, `df.sample()`,`df.sort_values()` | Preview data
+`df.query()` | Filter data
+`df.iat[]`, `df.at[]`, `df.iloc[]`, `df.loc[]` | Indexing and Slicing
+`df.info()` | Metadata Information
+`df.dropna()`, `df.fillna()`, `df.drop_duplicates()`, `df.rename()`, `df.set_index()` | Clean data
+`df.apply()`, `df.map()`, `df.reduce()`, `df.explode()` | Transform data
+`df.groupby()`, `df.join()`, `df.merge()`, `df.concat()` | Group by aggregate and combine data
+`df.pivot_table()`, `df.stack()`, `df.unstack()` | Reshape data 
+`df.plot()` | Visualize data
+`df.sum()`, `df.mean()`, `df.median()`, `df.max()`, `df.min()`, `df.value_counts()`, `df.describe()` | Mathematical operations
+`df.date_range()`, `df.to_datetime()` | Time Series analysis
 
-- `Import` data: `read_csv()`, `read_excel()`, `read_json()`
-- `Export` data: `to_csv()`, `.to_excel()`
-- `Preview` data: `head()`, `tail()`, `sample()`,`sort_values()`
-- `Filter`, `Indexing` and `Slicing` data: `query()`, `loc[]`, `iloc`, `at[]`, `iat[]`       
-- `Metadata`: `info()`
-- `Clean` data: `dropna()`, `fillna()`, `drop_duplicates()`, `rename()`, `set_index()`
-- `Transform` data: `apply()`, `map()`, `reduce()`, `explode()`
-- `Group`, `Aggregate` and `Combine` data: `groupby()`, `join()`, `merge()`, `concat()`, 
-- `Reshape` data: `pivot_table()`, `stack()` and `unstack()`
-- `Visualize` data: `.plot()`
-- `Mathematical` operations: `sum()`, `mean()`, `median()`, `max()`, `min()`, `value_counts()`, `describe()`
-- `Time Series` Analysis: `date_range()`, `to_datetime()`
 - `Performance optimization` ( Changing data types, storage type )
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
 - Pandas is used in `economics`, `finance`, `statistics` and `analytics`
