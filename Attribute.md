@@ -1,10 +1,9 @@
 # `Attribute`
 
 <table>
-  <tr>
-    <th>Attribute</th> <th>Description</th>
-  </tr>
+  <tr><th>Attribute</th> <th>Description</th></tr>
   <tr><td><a href=#index><code>DataFrame.index</code></a></td> <td>Row labels of DataFrame</td></tr>
+  <tr><td><a href=#column><code>DataFrame.columns</code></a></td> <td>Column labels of DataFrame</td></tr>
 </table>
 
 <h3 name=index><code>DataFrame.index</code></h3>
@@ -17,7 +16,7 @@ print(df.index)
 # We can also set some existing column as an index i.e index = 'City'
 ```
 
-### `DataFrame.columns` : Columns labels of DataFrame.
+<h3 name=column><code>DataFrame.columns</code></h3>
 
 ```python
 print(df.columns)
