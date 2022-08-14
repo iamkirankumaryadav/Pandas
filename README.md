@@ -11,6 +11,12 @@ import pandas as pd
 - `Toolkit` for `reading`, `writing`, [accessings](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Access%20Data.md), `filtering`, [grouping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Grouping.md), [combining](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Combining.md), [reshaping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Reshaping.md) and `cleaning` data.
 - Financial term for a tabular data is `Panel`, supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
 
+Data Types | Array
+:--- | :---
+`Series` | `1D`  
+`DataFrame` | `2D`  
+`Panel` | `3D` `major_axis` and `minor_axis` 
+
 Attribute | Meaning
 :--- | :---
 `df.index` | Index of DataFrame ( Default: RangeIndex )
@@ -40,9 +46,3 @@ Method | Use
 - `Performance optimization` ( Changing data types, storage type )
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
 - Pandas is used in `economics`, `finance`, `statistics` and `analytics`
-
-Data Types | Array
-:--- | :---
-`Series` | `1D`  
-`DataFrame` | `2D`  
-`Panel` | `3D` `major_axis` and `minor_axis` 
