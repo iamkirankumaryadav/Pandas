@@ -40,7 +40,7 @@ Method | Use
 `df.info()` | Metadata Information
 `df.dropna()`, `df.fillna()`, `df.drop_duplicates()`, `df.rename()`, `df.set_index()` | Clean data
 `df.apply()`, `df.map()`, `df.reduce()`, `df.explode()` | Transform data
-`df.groupby()` | Group and aggregate data
+`df.groupby()`, `df.groupby().agg()` | Group and aggregate data
 `df.join()`, `df.merge()`, `df.concat()` | Combine data
 `df.pivot_table()`, `df.stack()`, `df.unstack()` | Reshape data 
 `df.plot()` | Visualize data
