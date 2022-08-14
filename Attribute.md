@@ -4,6 +4,14 @@
   <tr><th>Attribute</th> <th>Description</th></tr>
   <tr><td><a href=#index><code>DataFrame.index</code></a></td> <td>Row labels of DataFrame</td></tr>
   <tr><td><a href=#column><code>DataFrame.columns</code></a></td> <td>Column labels of DataFrame</td></tr>
+  <tr><td><a href=#axes><code>DataFrame.axes</code></a></td> <td>Label values of rows and columns in the DataFrame</td></tr>
+  <tr><td><a href=#dtype><code>DataFrame.axes</code></a></td> <td>Data types for each column of DataFrame</td></tr>
+  <tr><td><a href=#size><code>DataFrame.size</code></a></td> <td>Total number of elements in a DataFrame</td></tr>
+  <tr><td><a href=#shape><code>DataFrame.shape</code></a></td> <td>Dimensions of DataFrame ( Number of rows, Number of columns )</td></tr>
+  <tr><td><a href=#ndim><code>DataFrame.ndim</code></a></td> <td>Dimensions of DataFrame</td></tr>
+  <tr><td><a href=#empty><code>DataFrame.empty</code></a></td> <td>Check whether DataFrame is empty or not</td></tr>
+  <tr><td><a href=#T><code>DataFrame.T</code></a></td> <td>Change the rows into columns and columns into rows</td></tr>  
+  <tr><td><a href=#value><code>DataFrame.values</code></a></td> <td>Values of DataFrame in the form of NumPy array</td></tr>  
 </table>
 
 <h3 name=index><code>DataFrame.index</code></h3>
@@ -22,25 +30,25 @@ print(df.index)
 print(df.columns)
 ```
 
-### `DataFrame.axes` : Label values of rows and columns in the DataFrame.
+<h3 name=axes><code>DataFrame.axes</code></h3>
 
 ```python
 print(df.axes)
 ```
 
-### `DataFrame.dtypes` : Data types for each column of DataFrame.
+<h3 name=dtype><code>DataFrame.dtypes</code></h3>
 
 ```python
 print(df.dtypes)
 ```
 
-### `DataFrame.size` : Total number of elements in a DataFrame.
+<h3 name=size><code>DataFrame.size</code></h3>
 
 ```python
 print(df.size)
 ```
 
-### `DataFrame.shape` : Dimensions of DataFrame ( Number of rows, Number of columns )
+<h3 name=shape><code>DataFrame.shape</code></h3> 
 
 ```python
 # Dimensions of the dataframe:
@@ -53,25 +61,25 @@ print(df.shape[0])
 print(df.shape[1])
 ```            
 
-### `DataFrame.ndim` : Dimensions of DataFrame.
+<h3 name=ndim><code>DataFrame.ndim</code></h3>
 
 ```python
 print(df.ndim)
 ```
 
-### `DataFrame.empty` : Check whether DataFrame is empty or not.
+<h3 name=empty><code>DataFrame.empty</code></h3> 
 
 ```python
 print(df.empty)
 ```
 
-### `DataFrame.T` : Change the rows into columns and columns into rows.
+<h3 name=T><code>DataFrame.T</code></h3>
 
 ```python
 print(df.T)
 ```
 
-### `DataFrame.values` : Values of DataFrame in the form of NumPy array.
+<h3 name=value><code>DataFrame.values</code></h3>
 
 ```python
 print(df.values)
