@@ -7,7 +7,7 @@ import pandas as pd
 
 ### `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 
-- Pandas is an `exploratory data analysis toolkit` with rich set of <a href=><code>attributes</code</a> and `methods`
+- Pandas is an `exploratory data analysis toolkit` with rich set of <a href=><code>attributes</code></a> and `methods`
 - `Toolkit` to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `merge`, `pivot` and `clean` the data.
 - Financial term for a tabular data is `Panel`, supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
 
