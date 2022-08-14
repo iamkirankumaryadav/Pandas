@@ -8,7 +8,7 @@ import pandas as pd
 ### `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 
 - Pandas is an `exploratory data analysis toolkit` with rich set of [attributes](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Method.md)
-- `Toolkit` to `read`, `write`, `analyze`, `filter`, `manipulate`, `aggregate`, `merge`, `pivot` and `clean` the data.
+- `Toolkit` for `reading`, `writing`, [accessings](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Access%20Data.md),`analyzing`, `filtering`, [grouping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Grouping.md), `aggregating`, [combining](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Combining.md), [reshaping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Reshaping.md) and `cleaning` data.
 - Financial term for a tabular data is `Panel`, supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
 
 Attribute | Meaning
