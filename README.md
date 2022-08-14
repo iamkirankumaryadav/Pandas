@@ -1,4 +1,4 @@
-# Pandas 🐼 : Python Data Analysis Library 
+# `Pandas` 🐼 Python Data Analysis Library 
 
 ```python
 import pandas as pd
