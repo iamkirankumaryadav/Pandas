@@ -26,7 +26,7 @@ Attribute | Meaning
 `df.columns` | Column labels of DataFrame  
 `df.size` | Number of columns in DataFrame
 `df.shape` | A tuple of rows and columns ( nrows, ncols )
-`df.ndim` | Number of dimensions in the DataFrame (1D, 2D, 3D...)
+`df.ndim` | Number of dimensions in the DataFrame ( 1D, 2D, 3D )
 `df.values` | Values of DataFrame
 `df.axes` | List containing index and columns
 
