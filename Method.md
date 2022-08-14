@@ -2,6 +2,7 @@
 
 <table>
       <tr><th><h3>Method</h3></th><th><h3>Description</h3></th></tr>
+      <tr><td><a href=#head><code>DataFrame.head(n)</code></a></td><td></td></tr>
       </table>
 
 ### `DataFrame.head(n)` : Displays top n rows from the DataFrame.
