@@ -1,7 +1,7 @@
 # `Attribute`
 
 <table>
-  <tr><th>Attribute</th> <th>Description</th></tr>
+  <tr><th><h3>Attribute</h3></th> <th><h3>Description</h3></th></tr>
   <tr><td><a href=#index><code>DataFrame.index</code></a></td> <td>Row labels of DataFrame</td></tr>
   <tr><td><a href=#column><code>DataFrame.columns</code></a></td> <td>Column labels of DataFrame</td></tr>
   <tr><td><a href=#axes><code>DataFrame.axes</code></a></td> <td>Label values of rows and columns in the DataFrame</td></tr>
