@@ -4,7 +4,7 @@
   <tr>
     <th>Attribute</th> <th>Description</th>
   </tr>
-  <tr><td><a href=#index>Index</a></td> <td>Row labels of DataFrame</td></tr>
+  <tr><td><a href=#index><code>Index</code></a></td> <td>Row labels of DataFrame</td></tr>
 </table>
 
 <h3 name=index>DataFrame.index</h3>
