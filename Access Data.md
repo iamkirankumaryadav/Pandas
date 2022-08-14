@@ -24,7 +24,11 @@ df.iloc[0, 0]
 
 ### `DataFrame.at[]` : Label based location
 ```python
+# DataFrame:
 print(df.at[1, 'Country'])
+
+# Series:
+print(df['Country'].at[1])
 ```
 ### `DataFrame.iat[]` : Integer based location
 ```python
