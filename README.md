@@ -22,12 +22,12 @@ Data Types | Array
 
 Attribute | Meaning
 :--- | :---
-`df.index` | Index of DataFrame ( Default: RangeIndex )
-`df.columns` | Columns in the DataFrame  
-`df.size` | Number of fields in the DataFrame
-`df.shape` | A tuple of number of rows and columns
+`df.index` | Index labels of DataFrame ( Default: RangeIndex )
+`df.columns` | Column labels of DataFrame  
+`df.size` | Number of columns in DataFrame
+`df.shape` | A tuple of rows and columns ( nrows, ncols )
 `df.ndim` | Number of dimensions in the DataFrame (1D, 2D, 3D...)
-`df.values` | All the values of the DataFrame
+`df.values` | Values of DataFrame
 `df.axes` | List containing index and columns
 
 Method | Use
