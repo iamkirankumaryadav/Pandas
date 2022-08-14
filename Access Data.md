@@ -31,7 +31,7 @@ print(df.at[1, 'Country'])
 print(df.iat[1, 3])
 ```
 
-# Access `scalar` value or entire `record` | `row` or `field` | `column`
+# Access `scalar` value or entire `row` or `column`
 
 ### `DataFrame.loc[]` : Label based location
 ```python
