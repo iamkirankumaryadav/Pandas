@@ -1,6 +1,6 @@
 # `Attribute`
 
-### `DataFrame.index` : Display the row labels of a DataFrame object.
+### `DataFrame.index` : Row labels of DataFrame.
 
 ```python
 print(df.index)
@@ -10,25 +10,25 @@ print(df.index)
 # We can also set some existing column as an index i.e index = 'City'
 ```
 
-### `DataFrame.columns` : Display the label values for columns present in the DataFrame.
+### `DataFrame.columns` : Columns labels of DataFrame.
 
 ```python
 print(df.columns)
 ```
 
-### `DataFrame.axes` : Display the label values of all rows and columns in the DataFrame.
+### `DataFrame.axes` : Label values of rows and columns in the DataFrame.
 
 ```python
 print(df.axes)
 ```
 
-### `DataFrame.dtypes` : Display the data types for each column of DataFrame.
+### `DataFrame.dtypes` : Data types for each column of DataFrame.
 
 ```python
 print(df.dtypes)
 ```
 
-### `DataFrame.size` : Display the total number of elements in a DataFrame.
+### `DataFrame.size` : Total number of elements in a DataFrame.
 
 ```python
 print(df.size)
@@ -47,7 +47,7 @@ print(df.shape[0])
 print(df.shape[1])
 ```            
 
-### `DataFrame.ndim` : Number of dimensions of DataFrame.
+### `DataFrame.ndim` : Dimensions of DataFrame.
 
 ```python
 print(df.ndim)
@@ -65,7 +65,7 @@ print(df.empty)
 print(df.T)
 ```
 
-### `DataFrame.values` : Represents the values of DataFrame in NumPy array.
+### `DataFrame.values` : Values of DataFrame in the form of NumPy array.
 
 ```python
 print(df.values)
