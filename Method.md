@@ -1,5 +1,9 @@
 # `Method`
 
+<table>
+      <tr><th>Method</th><th>Description</th></tr>
+      </table>
+
 ### `DataFrame.head(n)` : Displays top n rows from the DataFrame.
 
 ```python
