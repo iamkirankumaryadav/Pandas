@@ -1,10 +1,10 @@
-# `Join`
+# `DataFrame.join()`
 
 - For `pandas.DataFrame` both `join` and `merge` operates on columns and rename common columns using parameter `suffix`
 - `concat` can operate on columns or rows, depending on parameter `axis` and no renaming is performed.
 - `concat` allow defining hierarchy structure by passing in parameters `keys` and `names`
 
-### `DataFrame.join()` : `how = 'left' | 'right' | 'inner' | 'outer'`
+###  how = 'left' | 'right' | 'inner' | 'outer'`
 
 - Combine `all` the columns from the two tables.
 - Common columns are renamed with the paramaters `lsuffix` and `rsuffix`
@@ -20,9 +20,9 @@ DataFrame.join(self,
                sort=False)
 ```
 
-# `Merge` 
+# `DataFrame.merge()`
 
-### `DataFrame.merge()` : `how = 'left' | 'right' | 'inner' | 'outer' | 'cross'`
+### `how = 'left' | 'right' | 'inner' | 'outer' | 'cross'`
 
 - `Merge` combines `all` the columns from two tables.
 - Common columns can be renamed by parameter `suffixes`
@@ -62,9 +62,9 @@ pandas.merge(left,
              validate=None)                
 ```
 
-# `Concat`
+# `pandas.concat()`
 
-### `pandas.concat()` : `join = 'inner' | 'outer'`
+### `join = 'inner' | 'outer'`
 
 ### `axis = 0` : `Horizontally` | `Row Wise`
 ![Join](Images/df.concat(axis=0).png)
