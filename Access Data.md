@@ -20,7 +20,7 @@ df.iloc[0, 0]
 `.loc[]` | Access record or field + Label based location | `df.loc[0,'City']` or `df['City'].loc[1]`
 `.iloc[]` | Access record or field + Integer based location | `df.iloc[0,1]` or `df['City'].iloc[1]`
 
-### Access `scalar` value 
+# Access `scalar` value 
 
 ### `DataFrame.at[]` : Label based location
 ```python
@@ -31,7 +31,7 @@ print(df.at[1, 'Country'])
 print(df.iat[1, 3])
 ```
 
-### Access `scalar` value or entire `record` | `row` or `field` | `column`
+# Access `scalar` value or entire `record` | `row` or `field` | `column`
 
 ### `DataFrame.loc[]` : Label based location
 ```python
