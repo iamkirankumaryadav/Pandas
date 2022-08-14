@@ -9,7 +9,7 @@
 - Combine `all` the columns from the two tables.
 - Common columns are renamed with the paramaters `lsuffix` and `rsuffix`
 
-![Join](Images/df.joins.png)
+![Join](Images/df.join.png)
 
 ```python
 DataFrame.join(self, 
