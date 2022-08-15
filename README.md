@@ -46,3 +46,33 @@ Method | Use
 `df.plot()` | Visualize data
 `df.sum()`, `df.mean()`, `df.median()`, `df.max()`, `df.value_counts()`, `df.describe()` | Mathematical operations
 `df.date_range()`, `df.to_datetime()` | Time Series analysis
+
+### `Series` : 1D Array
+
+- `Series` holds `homogeneous` data values, i.e. All data values are of `same` data type.
+- Data axis labels are called as `index`
+
+```python
+# Create a series:
+pd.Series([1, 2, 3, 4])
+
+# Accessing a series:
+DataFrame['SeriesName'] or DataFrame.SeriesName
+```
+
+<img src="Images/DataFrames.png" alt='DataFrame'>
+
+### `DataFrame` : 2D Array
+
+- Data is aligned in tabular form with `rows` and `columns`
+- `DataFrame` is a sequence of `Series` that shares the same `index`
+
+```python
+# Empty DataFrame:
+pd.DataFrame()
+
+# Accessing DataFrame:
+DataFrame[['SeriesName1', 'SeriesName2', 'SeriesName3']]
+```
+
+<img src="Images/PandasDataTypes.png" alt='DataFrame'>
