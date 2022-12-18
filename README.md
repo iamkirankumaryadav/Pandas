@@ -1,5 +1,7 @@
 # `Pandas` 🐼 Python Data Analysis Library 
 
+Python library that help structure data in `DataFrames` and contain built-in functions for data analysis.
+
 ```python
 import pandas as pd
 ```
