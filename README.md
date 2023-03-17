@@ -10,6 +10,7 @@ import pandas as pd
 ### `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 
 - Pandas is an `exploratory data analysis toolkit` with rich set of [attributes](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Method.md)
+- Widely used for `data cleaning`, `data exploration`, and `data analysis` tasks.
 - `Toolkit` for reading, writing, [accessing](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Access%20Data.md), filtering, [grouping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Grouping.md), [combining](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Combining.md), [reshaping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Reshaping.md) and cleaning data.
 - Financial term for `multidimensional structured data sets` is `Panel`
 - Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
