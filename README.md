@@ -19,7 +19,7 @@ import pandas as pd
 - Pandas is used in `economics`, `finance`, `statistics` and `analytics`
 
 Data Type or Data Structure | Description
-:--- | :--- | :---
+:--- | :--- 
 `pandas.Series()` | `1D array` like object that can hold any data type.  
 `pandas.DataFrame()` | `2D table` like data structure that can hold multiple types of data in columns.   
 
