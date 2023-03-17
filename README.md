@@ -18,10 +18,10 @@ import pandas as pd
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
 - Pandas is used in `economics`, `finance`, `statistics` and `analytics`
 
-Data Types / Data Structure | Array
-:--- | :---
-`pandas.Series()` | `1D`  
-`pandas.DataFrame()` | `2D`  
+Data Types / Data Structure | Array | Description
+:--- | :--- | :---
+`pandas.Series()` | `1D` | `1D array` like object that can hold any data type.  
+`pandas.DataFrame()` | `2D` | `2D table` like data structure that can hold multiple types of data in columns.   
 
 Attribute | Meaning
 :--- | :---
