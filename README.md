@@ -16,8 +16,7 @@ import pandas as pd
 - Financial term for `multidimensional structured data sets` is `Panel`
 - Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
 - `Performance optimization` ( Changing data types, storage type )
-- Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`
-- Pandas is used in `economics`, `finance`, `statistics` and `analytics`
+- Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, etc.
 
 Data Type or Data Structure | Description
 :--- | :--- 
