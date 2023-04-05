@@ -32,7 +32,7 @@ df['LastName'].str.startswith('Yadav')
 df['Pincode'].str.isnumeric()
 ```          
 
-<h3 name=head>DataFrame.head(n)</h3> 
+<h3 name=head><code>DataFrame.head(n)</code></h3> 
 
 ```python
 # Default value for n is 5
