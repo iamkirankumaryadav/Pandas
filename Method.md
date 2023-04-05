@@ -39,14 +39,14 @@ df['Pincode'].str.isnumeric()
 df.head(n=10)
 ```          
 
-### `DataFrame.tail(n)` 
+<h3 name=tail><code>DataFrame.tail(n)</code></h3>
 
 ```python
 # Default value for n is 5
 df.tail(n=10)
 ```          
 
-### `DataFrame.info()` 
+<h3 name=info><code>DataFrame.info()</code></h3>
 
 1. Number of rows
 2. Number of columns
@@ -58,7 +58,7 @@ df.tail(n=10)
 df.info()
 ```                 
 
-### `DataFrame.query()` 
+<h3 name=query><code>DataFrame.query()</code></h3> 
 
 ```python
 df.query("Country == 'India' and State in ('Maharashtra', 'Hyderabad') and Year > 2021")
@@ -73,13 +73,13 @@ ITState = ['Hyderabad', 'Bangalore', 'Chennai']
 df.query("Country == 'India' and State in @ITState")
 ```
 
-### `Series.value_counts()` 
+<h3 name=count><code>Series.value_counts()</code></h3> 
 
 ```python
 df['City'].value_counts(normalize=False, sort=True, ascending=False, bins=None, dropna=True)
 ```            
 
-### `DataFrame.sort_index()` 
+<h3 name=index>DataFrame.sort_index()</code></h3> 
 
 - `axis=0` represents rows and `axis=1` represents columm.
 
@@ -87,7 +87,7 @@ df['City'].value_counts(normalize=False, sort=True, ascending=False, bins=None, 
 df.sort_index(axis=0, level=None, ascending=True, inplace=False, by=None)
 ```
 
-### `Series.sort_values()` 
+<h3 name=value>Series.sort_values()</code></h3> 
 
 ```python   
 # Sort by Axis:
@@ -97,7 +97,7 @@ df['Age'].sort_values(axis=0, ascending=True, inplace=False, kind='quicksort', n
 df.sort_values(by=['Age', 'Salary'], axis=0, ascending=[True, True], inplace=False, kind='quicksort', na_position='last')
 ```  
 
-### `DataFrame.set_index()` 
+<h3 name=set>DataFrame.set_index()</code></h3> 
 
 ```python
 # Set column "City" as an index:
@@ -107,13 +107,13 @@ df.set_index(keys='City', drop=True, append=False, inplace=False, verify_integri
 df.set_index(keys=['City', 'State'], drop=True, inplace=False)
 ```
 
-### `DataFrame.reset_index()` 
+<h3 name=reset>DataFrame.reset_index()</code></h3> 
 
 ```python
 df.reset_index(level=None, drop=False, inplace=False, ...)
 ```
 
-### `DataFrame.fillna()` 
+<h3 name=fillna>DataFrame.fillna()</code></h3> 
 
 ```python
 # DataFrame.fillna()
@@ -123,13 +123,13 @@ df.fillna('🌞')
 df['Sales'].fillna(0)
 ```
 
-### `DataFrame.dropna()` 
+<h3 name=dropna>DataFrame.dropna()</code></h3> 
 
 ```python
 # DataFrame.dropna()
 df.dropna()
 
-# DataFrame.Series.dropna()
+# DataFrame.Series.dropna()</code></h3> 
 df['Sales'].dropna()
 
 # Drop rows
