@@ -16,3 +16,20 @@
 2. `Scalability`: DataFrames can scale to handle large datasets.
 3. `Performance`: DataFrames are optimized for performance, so you can quickly and easily perform complex data operations.
 4. `Ease of use`: DataFrames are easy to use, even for beginners.
+
+### DataFrames can be created in multiple ways:
+
+A. Using `List`
+```python
+import pandas as pd
+
+# Create a list of lists:
+list_of_lists = [['Kirankumar', 27, 'Mumbai'], ['Sumit', 26, 'Patna'], ['Suraj', 27, 'Bangalore']]
+
+# Convert the list of lists to a DataFrame:
+df = pd.DataFrame(list_of_lists, columns=['Name', 'Age', 'City'])
+
+# Print the DataFrame
+print(df)
+
+```
