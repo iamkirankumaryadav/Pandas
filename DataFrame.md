@@ -12,7 +12,7 @@
 
 ### Benefits of using DataFrames:
 
-`Flexibility`: DataFrames can be used to store a variety of data types, including numeric, categorical, and string data.
-`Scalability`: DataFrames can scale to handle large datasets.
-`Performance`: DataFrames are optimized for performance, so you can quickly and easily perform complex data operations.
-`Ease of use`: DataFrames are easy to use, even for beginners.
+1. `Flexibility`: DataFrames can be used to store a variety of data types, including numeric, categorical, and string data.
+2. `Scalability`: DataFrames can scale to handle large datasets.
+3. `Performance`: DataFrames are optimized for performance, so you can quickly and easily perform complex data operations.
+4. `Ease of use`: DataFrames are easy to use, even for beginners.
