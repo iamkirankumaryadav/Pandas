@@ -29,7 +29,36 @@ list_of_lists = [['Kirankumar', 27, 'Mumbai'], ['Sumit', 26, 'Patna'], ['Suraj',
 # Convert the list of lists to a DataFrame:
 df = pd.DataFrame(list_of_lists, columns=['Name', 'Age', 'City'])
 
+# Print the DataFrame:
+print(df)
+```
+
+B. Using `zip`
+```python
+import pandas as pd
+
+# Create lists of fields:
+name = ['Kirankumar', 'Suraj', 'Sumit']
+age = [27, 27, 26]
+city = ['Mumbai', 'Bangalore', 'Patna']
+
+# Combine the multiple lists into single list object:
+df = pd.DataFrame(data=zip(name, age, city), columns=['Name', 'Age', 'City'])
+
+# Print the DataFrame:
+print(df)
+```
+
+C. Using `List` of `Dictionaries`
+```python
+import pandas as pd
+
+# Create a list of dictionaries:
+list_of_dictionaries = [{'Name': 'Kirankumar', 'Age': 27, 'Occupation': 'Data Scientist'}, {'Name': 'Suraj', 'Age': 27, 'Occupation': 'DevOps'}, {'Name': 'Sumit', 'Age': 26, 'Occupation': 'Python Developer'}]
+
+# Convert the list of dictionaries to a DataFrame
+df = pd.DataFrame(list_of_dictionaries)
+
 # Print the DataFrame
 print(df)
-
 ```
