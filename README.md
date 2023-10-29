@@ -18,6 +18,16 @@ import pandas as pd
 - `Performance optimization` ( Changing data types, storage type )
 - Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, etc.
 
+### Features of Pandas:
+
+- Time series support
+- Handling missing values
+- Grouped operations
+- Categorical data support
+- Merging and joining DataFrames
+- Statistical functions
+- Data visualization tools
+
 Data Type or Data Structure | Description
 :--- | :--- 
 `pandas.Series()` | `1D array` like object that can hold any data type.  
