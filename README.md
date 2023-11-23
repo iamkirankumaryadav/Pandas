@@ -1,6 +1,6 @@
 # `Pandas` 🐼 Python Data Analysis Library 
 
-Python library that help structure data in `DataFrames` and contain built-in functions for data analysis.
+Python library that helps structure data in `DataFrames` and contains built-in data analysis functions.
 
 ```python
 import pandas as pd
@@ -9,14 +9,14 @@ import pandas as pd
 
 ### `Row` | `Index` | `Record` | `Tuple` | `Observation` | `Sample`
 
-- Pandas is an `exploratory data analysis toolkit` with rich set of [attributes](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Method.md)
-- Pandas provides a wide range of `functions` and `methods` 
+- Pandas is an `exploratory data analysis toolkit` with a rich set of [attributes](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Method.md)
+- Pandas provide a wide range of `functions` and `methods` 
 - Widely used for `data cleaning`, `data exploration`, `data manipulation`, and `data analysis` tasks.
 - `Toolkit` for reading, writing, [accessing](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Access%20Data.md), filtering, [grouping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Grouping.md), aggregating, merging, joining, [combining](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Combining.md), [reshaping](https://github.com/KIRANKUMAR7296/Pandas/blob/main/Reshaping.md), cleaning, selecting data and performing statistical computation.
-- Financial term for `multidimensional structured data sets` is `Panel`
+The financial term for `multidimensional structured data sets` is `Panel`
 - Supports various formats of data: `csv`, `tsv`, `txt`, `xls`, `xlsx`, `json`, etc.
 - `Performance optimization` ( Changing data types, storage type )
-- Integrates well will other important libraries like `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, etc.
+- Integrates well with other important libraries like `NumPy`, `Matplotlib`, `Seaborn`, `Scipy`, etc.
 
 ### Features of Pandas:
 
@@ -30,8 +30,8 @@ import pandas as pd
 
 Data Type or Data Structure | Description
 :--- | :--- 
-`pandas.Series()` | `1D array` like object that can hold any data type.  
-`pandas.DataFrame()` | `2D table` like data structure that can hold multiple types of data in columns.   
+`pandas.Series()` | `1D array` is an object that can hold any data type.  
+`pandas.DataFrame()` | `2D table` is like a data structure that can hold multiple types of data in columns.   
 
 Attribute | Meaning
 :--- | :---
@@ -75,7 +75,7 @@ DataFrame['SeriesName'] or DataFrame.SeriesName
 
 <img src="Images/DataFrames.png" alt='DataFrame'>
 
-### `DataFrame` : 2D Array
+### `DataFrame`: 2D Array
 
 - Data is aligned in tabular form with `rows` and `columns`
 - `DataFrame` is a sequence of `Series` that shares the same `index`
