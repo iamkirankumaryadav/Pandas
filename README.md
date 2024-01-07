@@ -35,13 +35,13 @@ Data Type or Data Structure | Description
 
 Attribute | Meaning
 :--- | :---
-`df.index` | Index labels of DataFrame ( Default: RangeIndex )
-`df.columns` | Column labels of DataFrame  
+`df.index` | The row index labels of DataFrame ( Default: RangeIndex | axis = 0)
+`df.columns` | The column index labels of DataFrame (axis = 1) 
 `df.size` | Number of columns in DataFrame
 `df.shape` | A tuple of rows and columns ( nrows, ncols )
 `df.ndim` | Number of dimensions in the DataFrame ( 1D, 2D, 3D )
 `df.values` | Values of DataFrame
-`df.axes` | List containing index and columns
+`df.axes` | List containing index and columns indices in a DataFrame
 
 Method | Use
 :--- | :---
