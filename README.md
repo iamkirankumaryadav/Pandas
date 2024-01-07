@@ -1,6 +1,6 @@
 # `Pandas` 🐼 Python Data Analysis Library 
 
-Python library that helps structure data in `DataFrames` and contains built-in data analysis functions.
+- Python library that helps structure data in `DataFrames` and contains built-in data analysis functions.
 
 ```python
 import pandas as pd
@@ -79,6 +79,7 @@ DataFrame['SeriesName'] or DataFrame.SeriesName
 
 - Data is aligned in tabular form with `rows` and `columns`
 - `DataFrame` is a sequence of `Series` that shares the same `index`
+- The Python equivalent of an **Excel** or **SQL** table which is used to store and analyze data.
 
 ```python
 # Empty DataFrame:
